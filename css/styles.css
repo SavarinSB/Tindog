@@ -1,0 +1,158 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#testimonials,
+#press {
+  background-color: #ef8172;
+  color: white;
+}
+#title {
+  background-color: #ff4c68;
+}
+
+/* tittle section */
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.container {
+  padding: 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+.nav-link {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.title-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+  padding: 50px 0 20px 0;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 250px;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features Section */
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.icon-features {
+  color: #ef8172;
+  /* or add (size) fa-4x to all classes in <i> */
+  font-size: 40px;
+  padding: 50px 10px 20px 10px;
+}
+
+.h3-features {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px 10px 0;
+}
+
+.features-description {
+  color: #8f8f8f;
+  padding: 0 10px 50px;
+}
+
+/* Testimonials Section */
+
+.testimonials-text {
+  padding: 7% 15% 1%;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.testimonials-image {
+  width: 7%;
+  border-radius: 50%;
+  padding: 10px 10px;
+}
+
+/* Press Section */
+
+.press-img {
+  width: 200px;
+  margin: 50px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 7% 10%;
+}
+.pricing-h2,
+.pricing-description {
+  padding-bottom: 10px;
+}
+
+.pricing-h2 {
+  font-weight: bold;
+}
+.card {
+  border: 2px solid rgba(239, 129, 114, 0.4);
+}
+.card-header,
+.card-footer {
+  background: rgba(239, 129, 114, 0.4);
+}
+.h3-pricing {
+  font-size: medium;
+  padding: 10px 0 0;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta-title {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  background-color: white;
+}
+.footer-icon {
+  color: #ff4c68;
+  padding: 3% 5px;
+}
+.footer-copyright {
+  color: gray;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
